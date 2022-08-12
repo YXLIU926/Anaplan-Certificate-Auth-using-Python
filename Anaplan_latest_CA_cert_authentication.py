@@ -4,9 +4,7 @@ import requests
 from OpenSSL import crypto
 import random
 import string
-"""
-docstring
-"""
+
 
 def get_auth_token(certfile,keyfile):
     url = 'https://auth.anaplan.com/token/authenticate'
